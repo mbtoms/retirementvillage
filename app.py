@@ -137,7 +137,7 @@ with tab000:
       # User guide for each input parameter
     st.write("""
     ### Mortality Table
-    - **Description**: Select the mortality table to use in the model. This table is used to estimate life expectancies based on different mortality rates.
+    - **Description**: Select the mortality table to use in the model. This table is used to estimate life expectancies based on different mortality rates. Unfortunately data for estimating longevity in Zambia is limmited, the best we can do for now is use these South African mortality rates with the adjustment for uncertainty (to increase longevity) described in the next section.
     - **Options**:
         - 'SAIFL98_SAIML98': A standard South African mortality table.
         - 'CUSTOM': A custom mortality table.
